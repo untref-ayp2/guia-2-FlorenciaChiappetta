@@ -1,12 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"guia2/queue"
-)
-
 func main() {
-	q := queue.Queue{}
+	/*q := queue.Queue{}
 	q.Enqueue(1)
 	q.Enqueue("hola")
 	q.Enqueue("Mundo")
@@ -46,12 +41,12 @@ func main() {
 	q.Enqueue(2)
 
 	//Modificamos la cola sin usar los métodos definidos
-	q[0] = "Hola"
-	q[1] = "Mundo"
+	//q[0] = "Hola"
+	//q[1] = "Mundo"
 
 	v, err = q.Dequeue()
 	for err == nil {
 		fmt.Printf("%s", v)
 		v, err = q.Dequeue()
-	}
+	}*/
 }
