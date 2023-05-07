@@ -1,6 +1,8 @@
 package stack
 
-import "errors"
+import (
+	"errors"
+)
 
 // Stack implementa una pila genérica sobre un arreglo dinámico.
 type Stack struct {
@@ -34,4 +36,8 @@ func (s *Stack) Top() (any, error) {
 // IsEmpty verifica si la pila esta vacia. O(1)
 func (s *Stack) IsEmpty() bool {
 	return len((*s).stack) == 0
+}
+
+func (s *Stack) Size() int {
+	return len((*s).stack)
 }

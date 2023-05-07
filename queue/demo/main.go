@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"guia2/queue"
+)
+
 func main() {
 	/*q := queue.Queue{}
 	q.Enqueue(1)
@@ -49,4 +54,14 @@ func main() {
 		fmt.Printf("%s", v)
 		v, err = q.Dequeue()
 	}*/
+
+	var q1 queue.Queue
+	q1.Enqueue(4)
+	q1.Enqueue(5)
+	q1.Enqueue(6)
+	q1.Enqueue(7)
+	q1.Enqueue(8)
+	q1.Enqueue(9)
+	q1.Enqueue(10)
+	fmt.Println(queue.TransformarAPila(&q1))
 }

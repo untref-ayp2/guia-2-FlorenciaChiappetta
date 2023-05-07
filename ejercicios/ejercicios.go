@@ -1,8 +1,8 @@
 package ejercicios
 
 import (
+	"guia2/queue"
 	"guia2/stack"
-	"queue"
 )
 
 // Escribir una función que que reciba una cadena de caracteres y devuelva la cadena invertida. Analizar el orden.
